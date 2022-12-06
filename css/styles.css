@@ -70,6 +70,16 @@ strong {
     display: none
 }
 
+.footer {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 0.6em;
+    color: #999999;
+    padding: 25px 60px 25px;
+    background-color: #000;
+    letter-spacing: -0.05em;
+}
+
 .cryptedmail:after {
     content: attr(data-name) "@" attr(data-domain) "." attr(data-tld); 
   }
